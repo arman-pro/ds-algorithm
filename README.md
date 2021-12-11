@@ -3,11 +3,11 @@
 this is my course content.
 Mohammad Arman Ali
 
-### Hello With Programming 
+### Hello With Programming
 
-```
-function sayHello(){
-return `Hello 👋 Programmer!`;
+```js
+function sayHello() {
+  return `Hello 👋 Programmer!`;
 }
 alert(sayHello());
 ```
