@@ -63,3 +63,9 @@ N:B: All element of array are positive integer
             arr.push(...arr[0], arr.slice(1)); // exclude all value and push new array
            return mySum(arr, total)
 ```
+
+### Problem 04: The Collatz Conjecture
+
+Problem link [The Collatz Conjecture](https://edabit.com/challenge/PyLwHawLofXKZWw4i)
+same too #Problem 03
+See and compare
