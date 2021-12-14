@@ -14,3 +14,11 @@ Problem Link [Sum of Multiplication](https://edabit.com/challenge/W8R9CPBThreBBX
     Step 03: Check the range, if the range is 1 multiplication with num and return
     Step 04: return the num * range + call the function with num and range-1
     Step 05: End Program
+
+#### Travelling Salesman Problem
+
+Problem Link in Edatbit.com [Travelling Salesman Problem](https://edabit.com/challenge/r453y7c3vBQz4Rrbn)
+
+### Solve Instruction
+
+See the salesmanPath.js file
