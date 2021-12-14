@@ -2,7 +2,7 @@
 
 These problem form [Edatbit.com](https://www.edabit.com). I solved these problem on my apporch and compare with other programmers.
 
-### Problem 1: Sum of Multiplication
+### Problem 01: Sum of Multiplication
 
 Given a number, return the total sum of that number multiplied by every number between 1 and 10.  
 Problem Link [Sum of Multiplication](https://edabit.com/challenge/W8R9CPBThreBBXYLS)
@@ -15,10 +15,51 @@ Problem Link [Sum of Multiplication](https://edabit.com/challenge/W8R9CPBThreBBX
     Step 04: return the num * range + call the function with num and range-1
     Step 05: End Program
 
-#### Travelling Salesman Problem
+### Problem 02: Travelling Salesman Problem
 
 Problem Link in Edatbit.com [Travelling Salesman Problem](https://edabit.com/challenge/r453y7c3vBQz4Rrbn)
 
 ### Solve Instruction
 
 See the salesmanPath.js file
+
+### Problem 03: Sum of the Items in an Array
+
+Create a function that takes an array and returns the sum of all items in the array.  
+Problem Link [Sum of the Items in an Array](https://edabit.com/challenge/27Toh4rACcmRvRLrb)
+
+We can solve it by many way but i used recursion
+
+For see sloved code: [sumOfArray.js](https://github.com/arman-pro/ds-algorithm/blob/main/Edabit/Recursion/Eassy/sumOfArray.js)
+
+```
+sumArray([1, [2, [1]], 3]) ➞ 7
+// 1 + 2 + 1 + 3 = 7
+
+N:B: All element of array are positive integer
+
+```
+
+### Solve Instruction (Pseudocode & Algorithm)
+
+    Step 01: Create function sumArray with @var {Array} arr & @var {int} total
+    Step 02: Check if arr length is 0 return total
+    Step 03: Check if arr[0] value is a number
+    Step 04:    then the number addition with total
+    Step 05:    then call sumArray and slice first value from array and pass new total value as arg
+    Step 06: Check if arr[0] not number | else
+    Step 07: Call sumArray func and pass arg with spread first array and pass total
+    Step 08: End Program
+
+```
+    function mySum(Array arr, int total)
+        if arr.length === 0 then return
+        if arr[0] is number
+            total += arr[0]
+            // remove first element of the array
+            return mySum(arr.slice(1), total)
+        else
+            var arr = [];
+            arr.push(...arr[0], arr.slice(1)); // exclude all value and push new array
+           return mySum(arr, total)
+```
