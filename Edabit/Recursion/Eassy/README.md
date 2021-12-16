@@ -102,3 +102,40 @@ flat([]) // output []
     ```
 
 For see solved code [Flat Array](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/flat.js)
+
+### Problem 05: Total Count of Numbers in a MultiDimensional Or Nested Array
+
+Create a function that takes a multidimensional array and return the total count of numbers in that array. Problem link [Total Count of Numbers in a MultiDimensional Array](https://edabit.com/challenge/6dC7GRf5SsbsNvYdk)
+
+Example
+
+```
+countNumber([["", 17.2, 5, "edabit"]]) ➞ 2
+// 17.2 and 5.
+
+countNumber([[[[[2, 14]]], 2, 3, 4]]) ➞ 5
+// 2, 14, 2, 3 and 4.
+
+countNumber([["balkot"]]) ➞ 0
+```
+
+### Solve Instruction and Pseudocode
+
+    ```
+    @var {Array}
+    @return {int}
+
+    function countNumber(arr)
+        // declar a int variable
+        var count = 0;
+        if arr length equal to 0
+            then return Int @var count
+        for every item of @param arg
+            if item is Array
+                then call flat function with array item
+                and increment count by return val
+            if item is int
+                then increment count 1 time
+
+        return @var count;
+    ```
