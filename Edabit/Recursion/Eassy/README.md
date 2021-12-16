@@ -175,3 +175,8 @@ isFactorial(24) ➞ true
 ### Solve Instruction
 
 For see solved code [Total Count of Numbers...](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/isFactorial.js)
+
+#### Problem: 08 The Euclidean Algorithm
+
+Problem Link [Here](https://edabit.com/challenge/ku3fnFZC5vrCRWn5K)  
+Solved Code: [GCD.js](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/isFactorial.js)
