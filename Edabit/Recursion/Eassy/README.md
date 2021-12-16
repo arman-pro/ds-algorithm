@@ -105,7 +105,8 @@ For see solved code [Flat Array](https://github.com/arman-pro/ds-algorithm/tree/
 
 ### Problem 05: Total Count of Numbers in a MultiDimensional Or Nested Array
 
-Create a function that takes a multidimensional array and return the total count of numbers in that array. Problem link [Total Count of Numbers in a MultiDimensional Array](https://edabit.com/challenge/6dC7GRf5SsbsNvYdk)
+Create a function that takes a multidimensional array and return the total count of numbers in that array.  
+Problem link [Total Count of Numbers in a MultiDimensional Array](https://edabit.com/challenge/6dC7GRf5SsbsNvYdk)
 
 Example
 
@@ -141,3 +142,19 @@ countNumber([["balkot"]]) ➞ 0
     ```
 
 For see solved code [Total Count of Numbers...](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/countNumber.js)
+
+### Problem 06: Find the Largest Even Number
+
+Write a function that finds the largest number in an array nums that is also even. If there is no even number, return -1.  
+Problem link [Find the Largest Even Number](https://edabit.com/challenge/DX898Gd3L6QXAWMSf)  
+Example
+
+```
+largestEven([3, 7, 2, 1, 7, 9, 10, 13]) ➞ 10
+largestEven([1, 3, 5, 7]) ➞ -1
+largestEven([0, 19, 18973623]) ➞ 0
+```
+
+### Solve Instruction
+
+For see solved code [Total Count of Numbers...](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/largestEvenNumber.js)
