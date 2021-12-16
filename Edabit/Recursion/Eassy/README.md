@@ -69,3 +69,36 @@ N:B: All element of array are positive integer
 Problem link [The Collatz Conjecture](https://edabit.com/challenge/PyLwHawLofXKZWw4i)
 same too #Problem 03
 See and compare
+
+### Problem 05: Flaten an Array
+
+Giver a nested array. Merge all value a single array and return
+Solve This problem using Recursion
+
+```
+Example
+flat([1,2,3,[4,5,[6,7,8], 9],10]) // output [1,2,3,4,5,6,7,8,9,10]
+flat([]) // output []
+```
+
+### Solve Instruction and Pseudocode
+
+    ```
+    @var {Array}
+    @return {Array}
+
+    function flat(arr)
+        // declar a Array variable
+        var newArr = [];
+        if arr length equal to 0
+            then return Array @var newArr
+        for every item
+            if item is Array
+                then call flat function with array item, destructur and push into @var newArr
+            if item is not Array
+                then push into @var newArr
+
+        return @var newArr;
+    ```
+
+For see solved code [Flat Array](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/flat.js)
