@@ -139,3 +139,5 @@ countNumber([["balkot"]]) ➞ 0
 
         return @var count;
     ```
+
+For see solved code [Total Count of Numbers...](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/countNumber.js)
