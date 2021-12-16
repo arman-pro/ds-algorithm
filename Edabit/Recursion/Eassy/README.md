@@ -176,7 +176,12 @@ isFactorial(24) ➞ true
 
 For see solved code [Total Count of Numbers...](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/isFactorial.js)
 
-#### Problem: 08 The Euclidean Algorithm
+### Problem: 08 The Euclidean Algorithm
 
 Problem Link [Here](https://edabit.com/challenge/ku3fnFZC5vrCRWn5K)  
 Solved Code: [GCD.js](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/isFactorial.js)
+
+### Problem: 09 Converting One Binary String to Another
+
+Problem Link [Converting One Binary String to Another](https://edabit.com/challenge/HZcpmfBg6NstB5soN)  
+Solved Code [minSwaps.js](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/minSwaps.js)
