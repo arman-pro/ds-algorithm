@@ -158,3 +158,20 @@ largestEven([0, 19, 18973623]) ➞ 0
 ### Solve Instruction
 
 For see solved code [Total Count of Numbers...](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/largestEvenNumber.js)
+
+### Problem 07: Is the Input Factorial of an Integer?
+
+Create a function to check if a given integer is a factorial of integer or not. The return value should be a boolean.  
+Problem Link [Is the Input Factorial of an Integer](https://edabit.com/challenge/cAHN6sDdk8dSCoS2r)
+
+isFactorial(2) ➞ true
+// 2 = 2 \* 1 = 2!
+
+isFactorial(27) ➞ false
+
+isFactorial(24) ➞ true
+// 24 = 4 _ 3 _ 2 \* 1 = 4!
+
+### Solve Instruction
+
+For see solved code [Total Count of Numbers...](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/isFactorial.js)
