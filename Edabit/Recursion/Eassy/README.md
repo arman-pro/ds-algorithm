@@ -185,3 +185,28 @@ Solved Code: [GCD.js](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit
 
 Problem Link [Converting One Binary String to Another](https://edabit.com/challenge/HZcpmfBg6NstB5soN)  
 Solved Code [minSwaps.js](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/minSwaps.js)
+
+### Problem: 10 Anonymous Functions All the Way Down
+
+Create a function which takes a parameter n and returns a function such that it, when called n times, returns the string "edabit".
+
+Problem Link: [Click Here](https://edabit.com/challenge/zaJeE6susYdwRyB6j)
+
+```js
+//Example:
+lambdaDepth(0); //"edabit"
+
+lambdaDepth(1)(); //"edabit"
+
+lambdaDepth(2)()(); // "edabit"
+
+typeof lambdaDepth(2)(); // "function"
+```
+
+```Js
+// Code
+const lambdaDepth(n) => {
+    return n === 0 ? "Edabit" : lambdaDepth(n-1);
+}
+
+```
