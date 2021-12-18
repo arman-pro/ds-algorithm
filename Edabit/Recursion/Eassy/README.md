@@ -220,12 +220,19 @@ Problem Link [Digits Sum Roo](https://edabit.com/challenge/4aiWPfNZfpJTZDPSX)
 // Code Example
 rootDigit(123); //6
 // 1 + 2 + 3 = 6
-
 rootDigit(999888777); // 9
-
 rootDigit(1238763636555555555555); // 6
 ```
 
 ### Solve Instruction
 
 See the solved code: [See](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/minSwaps.js);
+
+### Problem: 12 Recursion: Palindrome Word
+
+Create a recursive function that determines whether a word is a palindrome or not.
+Problem Link [Palindrome Word](https://edabit.com/challenge/aeHGWC6M44KhLCRBt)
+
+### Solve Instruction
+
+See the solved code: [palindrom](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/palindrom.js)
