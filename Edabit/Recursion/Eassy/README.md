@@ -210,3 +210,22 @@ const lambdaDepth(n) => {
 }
 
 ```
+
+### Problem: 11 Digits Sum Root
+
+Create a function that takes a number and returns one digit that is the result of summing all the digits of the input number. When the sum of the digits consists of more than one digit, repeat summing until you get one digit.  
+Problem Link [Digits Sum Roo](https://edabit.com/challenge/4aiWPfNZfpJTZDPSX)
+
+```js
+// Code Example
+rootDigit(123); //6
+// 1 + 2 + 3 = 6
+
+rootDigit(999888777); // 9
+
+rootDigit(1238763636555555555555); // 6
+```
+
+### Solve Instruction
+
+See the solved code: [See](https://github.com/arman-pro/ds-algorithm/tree/main/Edabit/Recursion/Eassy/minSwaps.js);
