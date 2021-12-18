@@ -1,7 +1,7 @@
-### ds-algorithm
+### Data Structure & Algorithm
 
-this is my course content.
-Mohammad Arman Ali
+Author: [Mohammad Arman Ali](https://www.facebook.com/mohammadarman.ali.79)  
+E-mail: <mohammadarmanali.din@gmail.com>
 
 ### Hello With Programming
 
